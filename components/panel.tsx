@@ -6,11 +6,8 @@ export interface PanelProps {
 
 export function Panel({ children }: PanelProps) {
   return (
-    <div className='overflow-hidden rounded-lg bg-white shadow'>
-      <div className='px-4 py-5'>
-        <h1>panel</h1>
+    <div className='overflow-hidden rounded-lg bg-white shadow h-[656px] w-[1080px] mx-auto'>
         {children}
-      </div>
     </div>
   )
 }
